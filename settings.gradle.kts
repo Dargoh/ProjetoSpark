@@ -1,2 +1,3 @@
 rootProject.name = "ProjetoSpark"
-include(":bukkit:SparkCore")
+include("bukkit:SparkBukkitTemplate")
+findProject(":bukkit:SparkBukkitTemplate")?.name = "SparkBukkitTemplate"
